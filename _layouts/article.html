@@ -4,6 +4,14 @@ layout: default
 
 <nav class="article-nav">
   <a href="{{ '/' | relative_url }}" class="article-nav__back">← Bookworm</a>
+  {% if page.date %}
+  <span class="article-nav__meta">
+    <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%-d.%-m.%Y" }}</time>
+    {% assign words = content | number_of_words %}
+    {% assign reading_time = words | divided_by: 200 | plus: 1 %}
+    · {{ reading_time }} мин
+  </span>
+  {% endif %}
 </nav>
 
 <article class="article-body">

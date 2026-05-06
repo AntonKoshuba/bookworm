@@ -19,12 +19,14 @@ layout: default
       <p class="article-card__eyebrow">Платформы</p>
       <h3><a href="./telegram_bots_without_hosting.html">Telegram тестирует ботов без хостинга: как мессенджер убирает инфраструктуру из разработки</a></h3>
       <p>Почему возможная платформа Telegram важна не как ещё один no-code инструмент, а как перенос инфраструктурной сложности внутрь продукта.</p>
+      <p class="article-card__date">21.04.2026</p>
     </article>
 
     <article class="article-card">
       <p class="article-card__eyebrow">Инженерия</p>
       <h3><a href="./vibe_coding_v_prod_v1_2026-04-25.html">Vibe coding в проде: как делегировать код ИИ и не потерять контроль</a></h3>
       <p>Разбор подхода Anthropic к production vibe coding: где проходит граница доверия к ИИ и как проверять результат без построчного ревью всего diff.</p>
+      <p class="article-card__date">25.04.2026</p>
     </article>
   </div>
 </section>
